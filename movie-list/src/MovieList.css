@@ -1,0 +1,49 @@
+/* Movie List Container */
+.movie-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;   /* Left align everything */
+  width: 350px;
+  margin: 40px auto;         /* Keep the entire component centered on the page */
+  padding: 20px;
+}
+
+/* Title */
+.movie-list-container h1 {
+  margin-bottom: 15px;
+}
+
+/* Dropdown */
+.movie-list-container select {
+  margin-bottom: 20px;
+}
+
+/* Movie Card */
+.movie-card {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;   /* Left align text */
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+.movie-card h3 {
+  margin: 0 0 8px;
+}
+
+/* Details */
+.movie-card p {
+  margin: 2px 0;
+}
+
+/* Hover Effect */
+.movie-card:hover {
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
